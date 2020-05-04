@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2,h3{
+    color: #5600c6;
+    font-weight: 600;
+}
+.image-jumbotron{
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+header{
+    display: inline;
+}
+nav{
+    background-color: #363895;
+    top: 0;
+    position: sticky;
+    display: flex;
+}
+.child-nav{
+    padding: 24px;
+    flex-grow: 1;
+    text-align: center;
+}
+nav a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    font-weight: bold;
+}
+main{
+    display: flex;
+    padding: 20px;
+}
+main em{
+    font-weight: 600;
+}
+.content{
+    flex-basis: 75%;
+}
+article{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+article li{
+    list-style-type: none;
+}
+aside{
+    flex-basis: 25%;
+    padding-left: 20px;
+}
+aside{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+table td:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.profile-picture{
+    max-width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #363895;
+    text-align: center;
+    font-weight: 600;
+}
+.virus-png{
+    max-width: 150px;
+}
+.demam-png{
+    max-width: 250px;
+}
+.batuk-png{
+    max-width: 200px;
+}
+.social-distancing-png{
+    max-width: 300px;
+}
+#pengertian{
+    display: flex;
+}
+#gejala{
+    display: flex;
+}
+#caraPenyebaran{
+    display: flex;
+}
+.pencegahan-container{
+    display: flex;
+}
+.left{
+    padding: 24px;
+    margin: auto;
+}
+.right{
+    padding: 24px;
+    text-align: right;
+    margin: auto;
+}
+.ungu{
+    background-color: #5600c6;
+    width: 32px;
+    height: 32px;
+}
+.merah{
+    background-color: #c60000;
+    width: 32px;
+    height: 32px;
+}
