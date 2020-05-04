@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
+p{
+    font-size: medium;
+}
 body{
     margin: 0;
     padding: 0;
@@ -80,7 +83,7 @@ table td:hover{
 footer {
     padding: 20px;
     color: white;
-    background-color: #363895;
+    background-color: #5600c6;
     text-align: center;
     font-weight: 600;
 }
@@ -127,3 +130,74 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    main{
+        flex-direction: column;
+    }
+    .content,aside{
+        flex-basis: 100%;
+    }
+    aside{
+        padding-left: 0;
+    }
+    .profile{
+        display: flex;
+        padding: 40px;
+    }
+    .profile-child{
+        flex-grow: 1;
+        margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+     #pengertian{
+         flex-direction: column;
+     }
+     #gejala{
+         flex-direction: column-reverse;
+     }
+     #caraPenyebaran{
+         flex-direction: column;
+     }
+     .pencegahan-container{
+         flex-direction: column-reverse;
+     }
+     .right{
+         text-align: center;
+     }
+     .left{
+         text-align: center;
+     }
+     .profile{
+         flex-direction: column;
+     }
+     nav{
+         flex-direction: column;
+     }
+     .child-nav{
+         padding: 8px;
+     }
+  }
+
+  @media screen and (max-width: 375px) {
+      .social-distancing-png,.demam-png{
+          max-width: 200px;
+      }
+      .virus-png{
+          max-width: 150px;
+      }
+      footer p{
+          font-size: small!important;
+      }
+  }
+  @media screen and (max-width:320px){
+      footer{
+        overflow: auto;
+      }
+      footer p{
+        font-size: small!important;
+      }
+  }

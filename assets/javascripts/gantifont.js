@@ -65,7 +65,7 @@ function change_font_large(){
     }
 }
 
-function change_image_large(){
+function change_image_ungu(){
     var img = document.querySelector(".image-jumbotron");
     img.setAttribute('src','assets/image/covid-big.jpg')
 }
